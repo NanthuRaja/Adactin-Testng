@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-04-07T05:21:41Z" name="Suite" finished-at="2021-04-07T05:22:22Z" duration-ms="41114">
+    <groups>
+    </groups>
+    <test started-at="2021-04-07T05:21:41Z" name="Test" finished-at="2021-04-07T05:22:22Z" duration-ms="41114">
+      <class name="org.baseclass.LoginPage">
+        <test-method is-config="true" signature="browserLaunch()[pri:0, instance:org.baseclass.LoginPage@a38c7fe]" started-at="2021-04-07T05:21:41Z" name="browserLaunch" finished-at="2021-04-07T05:22:07Z" duration-ms="25884" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserLaunch -->
+        <test-method signature="tc0(java.lang.String, java.lang.String)[pri:0, instance:org.baseclass.LoginPage@a38c7fe]" started-at="2021-04-07T05:22:07Z" name="tc0" finished-at="2021-04-07T05:22:11Z" duration-ms="3975" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[prakash0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[J5M3AD]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc0 -->
+        <test-method signature="tc1()[pri:0, instance:org.baseclass.LoginPage@a38c7fe]" started-at="2021-04-07T05:22:11Z" name="tc1" finished-at="2021-04-07T05:22:13Z" duration-ms="2037" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc1 -->
+        <test-method signature="tc2()[pri:0, instance:org.baseclass.LoginPage@a38c7fe]" started-at="2021-04-07T05:22:13Z" name="tc2" finished-at="2021-04-07T05:22:14Z" duration-ms="777" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc2 -->
+        <test-method signature="tc3(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:org.baseclass.LoginPage@a38c7fe]" started-at="2021-04-07T05:22:14Z" name="tc3" finished-at="2021-04-07T05:22:22Z" duration-ms="8382" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[NANTHU]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[RAJA]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[AUSTRALIA]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[1234567890123456]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[VISA]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[2021]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[321]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc3 -->
+      </class> <!-- org.baseclass.LoginPage -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

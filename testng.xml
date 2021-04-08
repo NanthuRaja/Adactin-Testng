@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<test thread-count="5" name="Test">
+		<parameter name="username" value="prakash0"></parameter>
+		<parameter name="password" value="J5M3AD"></parameter>
+		<parameter name="firstname" value="NANTHU"></parameter>
+		<parameter name="lastname" value="RAJA"></parameter>
+		<parameter name="address" value="AUSTRALIA"></parameter>
+		<parameter name="cardnumber" value="1234567890123456"></parameter>
+		<parameter name="cardtype" value="VISA"></parameter>
+		<parameter name="expmonth" value="3"></parameter>
+		<parameter name="expyear" value="2021"></parameter>
+		<parameter name="ccv" value="321"></parameter>
+
+		<classes>
+			<class name="org.baseclass.LoginPage"></class>
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->

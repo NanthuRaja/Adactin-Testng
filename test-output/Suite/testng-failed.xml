@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <parameter name="password" value="J5M3AD"/>
+    <parameter name="firstname" value="NANTHU"/>
+    <parameter name="address" value="Melbourne,AUSTRALIA"/>
+    <parameter name="expmonth" value="March"/>
+    <parameter name="expyear" value="2022"/>
+    <parameter name="ccv" value="321"/>
+    <parameter name="cardnumber" value="9876543210123456"/>
+    <parameter name="cardtype" value="VISA"/>
+    <parameter name="username" value="prakash0"/>
+    <parameter name="lastname" value="RAJA"/>
+    <classes>
+      <class name="org.baseclass.LoginPage">
+        <methods>
+          <include name="browserLaunch"/>
+          <include name="tc3" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- org.baseclass.LoginPage -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
